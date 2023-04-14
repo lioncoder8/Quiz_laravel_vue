@@ -35,7 +35,7 @@ defineProps({
                                     <div v-for="item in quiz">
                                         <div class="grid grid-cols-4 gap-4 bg-slate-200 p-8 mx-40 rounded-lg text-2xl">
                                             <div class="">
-                                                <div class="">{{item.quiz_number}})  {{ item.title }}</div>
+                                                <div class="">{{item.quiz_number}})___  {{ item.title }}</div>
                                                 
                                             </div>
                                             <div>
