@@ -54,8 +54,8 @@ defineProps({
                                         
                                         <PrimaryButton class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                                             <div v-if="st == 0">Start</div>
-                                            <div v-else-if="st == 0">Next</div>
-                                            <div v-else>End</div>
+                                            <div v-else-if="st > 0">Next</div>
+                                            <div v-else-if = "st == 100" > End</div>
                                         </PrimaryButton>
                                     </div>
                                 </form>
